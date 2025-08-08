@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinuosityPlugin", "Sinuosity.Plugin\SinuosityPlugin.csproj", "{C46EA029-861E-4301-9860-AE1D4D2467A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinuosityStandalone", "Sinuosity.Standalone\SinuosityStandalone.csproj", "{EA58D3FD-A3EF-4743-A2EF-E508B13C266B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinuosityCore", "Sinuosity.Core\SinuosityCore.csproj", "{3B2D7F4B-9025-42D2-BD03-0DF9CF86FB69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDALinterface", "GDALinterface\GDALinterface.csproj", "{D7F9FABC-3261-401F-95C4-A2B55B9AD27D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDALhost", "GDALhost\GDALhost.csproj", "{E4D38100-8E6A-1DE0-D2C9-2A335685590D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46EA029-861E-4301-9860-AE1D4D2467A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46EA029-861E-4301-9860-AE1D4D2467A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46EA029-861E-4301-9860-AE1D4D2467A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46EA029-861E-4301-9860-AE1D4D2467A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA58D3FD-A3EF-4743-A2EF-E508B13C266B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA58D3FD-A3EF-4743-A2EF-E508B13C266B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA58D3FD-A3EF-4743-A2EF-E508B13C266B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA58D3FD-A3EF-4743-A2EF-E508B13C266B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2D7F4B-9025-42D2-BD03-0DF9CF86FB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2D7F4B-9025-42D2-BD03-0DF9CF86FB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2D7F4B-9025-42D2-BD03-0DF9CF86FB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2D7F4B-9025-42D2-BD03-0DF9CF86FB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F9FABC-3261-401F-95C4-A2B55B9AD27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F9FABC-3261-401F-95C4-A2B55B9AD27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F9FABC-3261-401F-95C4-A2B55B9AD27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F9FABC-3261-401F-95C4-A2B55B9AD27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D38100-8E6A-1DE0-D2C9-2A335685590D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D38100-8E6A-1DE0-D2C9-2A335685590D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D38100-8E6A-1DE0-D2C9-2A335685590D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D38100-8E6A-1DE0-D2C9-2A335685590D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0203FC8-A532-4897-A3F8-BECD6DBA8F01}
+	EndGlobalSection
+EndGlobal
